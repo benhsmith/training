@@ -1,0 +1,37 @@
+<html>
+  <style>
+    flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    }
+  </style>
+
+  <table>
+    <tr>
+      <td>
+        <image id="QuestionImage"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <image id="TestImage"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type="button" onclick='Same(true)'>Same</button>
+        <button type="button" onclick='Same(false)'>Different</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p id="Feedback"></p>
+      </td>
+    </tr>
+  </table>
+
+
+  
+  <!--canvas id="Canvas" width="400" height="400"></canvas-->
+  <script src="rotation.js"></script>
+</html>
